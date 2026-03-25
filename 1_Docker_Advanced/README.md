@@ -66,9 +66,29 @@ def preparation(id):
 
 def create_namespace():
     flags = CLONE_NEWUTS | CLONE_NEWNS | CLONE_NEWPID
-    if lib.unshare(flags) != 0:
+    if libc.unshare(flags) != 0:
         raise Exception("Failed to create namespace")
     return flags
 ```
 CLONE_NEW[...] - флажки/числовые идентификаторы. ctypes.CDLL("libc.so.6") загружает системный файл, в котором реализованы функции unshare, mount, fork и другие.  
+  
+Реализуем функцию mount  
+```
+def mount(lower, upper, work, merged):
+    options = f"lowerdir={lower},upperdir={upper},workdir={work}".encode()
+    rez = libc.mount(b"overlay", merged.encode(), b"overlay", 0, options)
+    if rez != 0:
+        raise Exception("Failed to mount overlay")
+    return rez
+```
+Объясню  
+Проверим, работает ли  
+<img width="1847" height="1037" alt="image" src="https://github.com/user-attachments/assets/8b04d848-2649-497c-866a-62da9f310179" />  
+Всё круто, вывод последней команды ps aux означает, что изоляция процессов не завершена. Чтобы контейнер стал полностью изолированным, как и в Docker, нам нужно примонтировать новую файловую систему /proc специально для этого контейнера.  
+
+
+объясняю еще  
+<img width="1444" height="288" alt="image" src="https://github.com/user-attachments/assets/d01ed860-b87e-4350-bff4-9d511fdeb44c" />  
+ГООООООООЛ  
+
 
