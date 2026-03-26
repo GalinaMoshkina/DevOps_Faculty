@@ -1,0 +1,5 @@
+{
+  "command": "/bin/sh",
+  "hostname": "box-container",
+  "lowerdir": "alpine_base"
+}
