@@ -10,4 +10,8 @@ kuberctl
 <img width="1472" height="806" alt="image" src="https://github.com/user-attachments/assets/5c85c9d4-233d-45fa-962b-27b29c4599c6" />  
 
 <img width="655" height="95" alt="image" src="https://github.com/user-attachments/assets/20101754-853c-41ce-a073-cfa6f6a0524a" />  
+Открыли дашборд с помощью команды ```minikube dashboard```, выбрали all namespaces  
+Видно etcd БД  
+<img width="1843" height="987" alt="image" src="https://github.com/user-attachments/assets/c1dbfd34-a6a7-4654-9498-c90a67b4dc66" />
+
 
