@@ -8,7 +8,7 @@
 
 kuberctl  
 <img width="1164" height="388" alt="image" src="https://github.com/user-attachments/assets/f13fec74-dac7-4876-9526-6463667a89c1" />
-Мозг kubernetes, он принимает все решения и управляет всеми ресурсами. В нем как раз видно API, через который и проходит всё общение. Всем этим мы управляем через kuberctl
+Мозг kubernetes, он принимает все решения и управляет всеми ресурсами. В нем как раз видно API, через который и проходит всё общение. Также там есть scheduler, который отслеживает новые поды, не имеющие назначенного node, и выбирает для них оптимальный рабочий node. Всем этим мы управляем через kuberctl
 <img width="1472" height="806" alt="image" src="https://github.com/user-attachments/assets/5c85c9d4-233d-45fa-962b-27b29c4599c6" />  
 
 <img width="655" height="95" alt="image" src="https://github.com/user-attachments/assets/20101754-853c-41ce-a073-cfa6f6a0524a" />  
