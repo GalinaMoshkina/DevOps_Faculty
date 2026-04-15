@@ -37,6 +37,7 @@ kuberctl
 
 <img width="1323" height="426" alt="image" src="https://github.com/user-attachments/assets/010cd491-89f4-4242-a967-a4b8e9c220f3" />  
 <img width="1323" height="426" alt="image" src="https://github.com/user-attachments/assets/ca3e9441-b3f0-4b25-bbc4-4cbd5258af8f" />  
+поменяем количество ```replicaCount``` и апгрейднем helm  
 <img width="1331" height="533" alt="image" src="https://github.com/user-attachments/assets/4ea17f50-87ab-46d2-92a2-e3e3b3323218" />  
 
 
