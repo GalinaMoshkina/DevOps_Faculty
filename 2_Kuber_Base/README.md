@@ -22,10 +22,13 @@ kuberctl
 
 <img width="1322" height="444" alt="image" src="https://github.com/user-attachments/assets/fefa7f55-b07c-46ac-9df5-0dc84e73151e" />  
 Команды  
-`kubectl apply -f /home/gala/.vscode/2course/DevOps/2_kuber_base/deployment.yaml`  
-`kubectl apply -f /home/gala/.vscode/2course/DevOps/2_kuber_base/service.yaml`  
-`kubectl get pods`
-`kubectl get services`
+`kubectl apply -f /home/gala/.vscode/2course/DevOps/2_kuber_base/deployment.yaml` - обновляем deployment.yaml  
+`kubectl apply -f /home/gala/.vscode/2course/DevOps/2_kuber_base/service.yaml` - обновляем se4rvice.yaml  
+Можно увидеть это в дашборде  
+<img width="1845" height="984" alt="image" src="https://github.com/user-attachments/assets/ab490ab6-9b25-4632-aa8b-478e003578a1" />
+
+`kubectl get pods` - выводит список всех запущенных подов  
+`kubectl get services` 
 
 <img width="1847" height="583" alt="image" src="https://github.com/user-attachments/assets/ae023c60-8892-40be-805c-a8efacc9c85c" />  
 
@@ -39,6 +42,7 @@ kuberctl
 <img width="1323" height="426" alt="image" src="https://github.com/user-attachments/assets/ca3e9441-b3f0-4b25-bbc4-4cbd5258af8f" />  
 поменяем количество `replicaCount` и апгрейднем helm  
 <img width="1331" height="533" alt="image" src="https://github.com/user-attachments/assets/4ea17f50-87ab-46d2-92a2-e3e3b3323218" />  
+
 
 
 
