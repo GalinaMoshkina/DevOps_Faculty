@@ -1,7 +1,8 @@
 # Лабораторная работа №2 - kubernetes
 ## Базовый трэк
 ### Выполняла Мошкина Галина Андреевна, 466780
-  
+
+Сначала установка kuberctl и minikube  
 <img width="1484" height="409" alt="image" src="https://github.com/user-attachments/assets/5d6e5277-36ac-4bb6-a97b-2ad3a7d641aa" />  
 <img width="1197" height="74" alt="image" src="https://github.com/user-attachments/assets/1a7fafb6-7461-44be-bf9b-399597680458" />  
 
@@ -44,6 +45,7 @@ kuberctl
 поменяем количество `replicaCount` и апгрейднем helm  
 <img width="1331" height="533" alt="image" src="https://github.com/user-attachments/assets/4ea17f50-87ab-46d2-92a2-e3e3b3323218" />  
 
-
+Видео, которое помогло разобраться более подробно со структурой kubernetes:  
+https://www.youtube.com/watch?v=TwyhnBDOHPw&t=1191s  
 
 
