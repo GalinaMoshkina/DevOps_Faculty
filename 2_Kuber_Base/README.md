@@ -104,7 +104,7 @@ data:
 Дальше можно увидеть, что configmap.yaml настроен и видно html код к сайту с hello world 
 <img width="1322" height="444" alt="image" src="https://github.com/user-attachments/assets/45037ef6-73e6-4578-ba79-c62abf52d0e7" />  
 <img width="1230" height="350" alt="image" src="https://github.com/user-attachments/assets/b292a1df-a205-4216-adc5-eec1428b819d" />  
-ура  
+РАБОТАЕЕЕЕТ!!!  
 <img width="1847" height="980" alt="image" src="https://github.com/user-attachments/assets/95ceec90-66b2-4635-a623-9ce8f9afb64e" />  
 
 <img width="1323" height="426" alt="image" src="https://github.com/user-attachments/assets/010cd491-89f4-4242-a967-a4b8e9c220f3" />  
