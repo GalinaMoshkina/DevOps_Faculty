@@ -110,6 +110,7 @@ data:
 <img width="1847" height="980" alt="image" src="https://github.com/user-attachments/assets/95ceec90-66b2-4635-a623-9ce8f9afb64e" />  
 <img width="941" height="1049" alt="image" src="https://github.com/user-attachments/assets/ce8cf22f-5d04-4097-bdd1-a2ed8677a149" />  
 Дальше вторая часть - helm. Для начала я обновила прошлые yaml файлы для того, чтобы можно было настраивать только один файл values.yaml, а остальные не требовались в редакции - то есть подставлялисть просто переменные в файлы.  
+После создания chart'а выполнила `helm install myapp ./myapp-chart` - установка приложения в кластер. Затем для демонстрации работы управления версиями выполнила `helm upgrade myapp ./myapp-chart.`
 <img width="1323" height="426" alt="image" src="https://github.com/user-attachments/assets/010cd491-89f4-4242-a967-a4b8e9c220f3" />  
 <img width="1323" height="426" alt="image" src="https://github.com/user-attachments/assets/ca3e9441-b3f0-4b25-bbc4-4cbd5258af8f" />  
 поменяем количество `replicaCount` и апгрейднем helm  
