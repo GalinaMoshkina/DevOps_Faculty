@@ -17,7 +17,74 @@ kuberctl
 <img width="1843" height="987" alt="image" src="https://github.com/user-attachments/assets/c1dbfd34-a6a7-4654-9498-c90a67b4dc66" />  
 
 Перейдем к написанию `deployment.yaml`. Во первых, в kubernetis всё общение происходит через API, сл-но, указываем `apiVersion`
+deployment.yaml
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.28.3
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: html-volume
+          mountPath: /usr/share/nginx/html
+          readOnly: true
+      volumes:
+      - name: html-volume
+        configMap:
+          name: nginx-html
+          items:
+          - key: index.html
+            path: index.html
+```
 
+service.yaml
+```
+apiVersion: v1
+kind: Service
+metadata:
+  name: app-service
+spec:
+  selector:
+    app: nginx
+  ports:
+  - port: 80
+    targetPort: 80
+    protocol: TCP
+  type: NodePort
+```
+
+configmap.yaml
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-html
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head><title>Lab</title></head>
+    <body style="font-family: sans-serif; text-align: center; padding: 50px;">
+      <h1>Hello world</h1>
+    </body>
+    </html>
+```
 
 
 Запуск!
