@@ -27,7 +27,11 @@ kuberctl
 ```kubectl get pods```
 ```kubectl get services```
 
-<img width="1847" height="583" alt="image" src="https://github.com/user-attachments/assets/ae023c60-8892-40be-805c-a8efacc9c85c" />
+<img width="1847" height="583" alt="image" src="https://github.com/user-attachments/assets/ae023c60-8892-40be-805c-a8efacc9c85c" />  
 
-Гол
-<img width="1322" height="444" alt="image" src="https://github.com/user-attachments/assets/45037ef6-73e6-4578-ba79-c62abf52d0e7" />
+Гол  
+<img width="1322" height="444" alt="image" src="https://github.com/user-attachments/assets/45037ef6-73e6-4578-ba79-c62abf52d0e7" />  
+<img width="1230" height="350" alt="image" src="https://github.com/user-attachments/assets/4f1308ac-aa46-4fad-9e22-246b6bf591dd" />  
+
+ура  
+<img width="1847" height="980" alt="image" src="https://github.com/user-attachments/assets/95ceec90-66b2-4635-a623-9ce8f9afb64e" />  
