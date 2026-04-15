@@ -34,3 +34,10 @@ kuberctl
 <img width="1230" height="350" alt="image" src="https://github.com/user-attachments/assets/b292a1df-a205-4216-adc5-eec1428b819d" />  
 ура  
 <img width="1847" height="980" alt="image" src="https://github.com/user-attachments/assets/95ceec90-66b2-4635-a623-9ce8f9afb64e" />  
+
+<img width="1323" height="426" alt="image" src="https://github.com/user-attachments/assets/010cd491-89f4-4242-a967-a4b8e9c220f3" />  
+<img width="1323" height="426" alt="image" src="https://github.com/user-attachments/assets/ca3e9441-b3f0-4b25-bbc4-4cbd5258af8f" />  
+<img width="1331" height="533" alt="image" src="https://github.com/user-attachments/assets/4ea17f50-87ab-46d2-92a2-e3e3b3323218" />  
+
+
+
