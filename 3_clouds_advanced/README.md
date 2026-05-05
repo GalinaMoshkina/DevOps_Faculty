@@ -10,5 +10,6 @@ Terraform будет обеспечивать ресурсы для работы
 Далее прописываем `terraform init` - инициализация работы, и `terraform apply` - применение изменений 
 <img width="963" height="357" alt="image" src="https://github.com/user-attachments/assets/8cd64613-4697-4325-bd48-abee7c57ba5f" />  
 <img width="1474" height="521" alt="image" src="https://github.com/user-attachments/assets/9a97488b-5f66-4ff0-a7e2-f19211c3a469" />  
+Удаляем файл с помощью команды `rm main.tf` и приступаем уже к заданию лабораторной  
 
 
