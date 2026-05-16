@@ -29,7 +29,7 @@ SERVICE_PASSWORD=$ADMIN_PASSWORD
 source openrc admin admin
 openstack service list
 ```  
-<img width="696" height="61" alt="image" src="https://github.com/user-attachments/assets/9f79ec45-65a4-413f-8a87-f39d3e9676d6" />  
+На первую команду ничего выведено не было, а вторую команду он просто не распознал, не хватало установки дополнительных компонентов...  
 <img width="736" height="740" alt="image" src="https://github.com/user-attachments/assets/69f51b9e-8f2b-4404-8b7d-39d5044b4348" />  
   
 Проверяем логи  
